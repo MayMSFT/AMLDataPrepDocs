@@ -25,6 +25,12 @@ pip install -U tornado==4.5.3
 
 ## Release Notes
 
+### 2019-01-28 (version 1.0.8)
+
+Bug fixes
+- Significantly improved the performance of getting data profiles.
+- Fixed minor bugs related to error reporting.
+
 ### 2019-01-14 (version 1.0.7)
 
 New features
@@ -36,7 +42,7 @@ New features
 ### 2019-01-09 (version 1.0.6)
 
 Bug fixes
-- Fixed bug with reading from public readable Azure Blob containers on Spark
+- Fixed bug with reading from public readable Azure Blob containers on Spark.
 
 ### 2018-12-19 (version 1.0.4)
 
@@ -52,7 +58,7 @@ Bug fixes
 
 ### 2018-12-07 (version 0.5.3)
 
-Fixed missing dependency issue for .NET Core2 on Ubuntu 16
+Fixed missing dependency issue for .NET Core2 on Ubuntu 16.
 
 ### 2018-12-03 (version 0.5.2)
 
