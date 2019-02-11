@@ -25,6 +25,16 @@ pip install -U tornado==4.5.3
 
 ## Release Notes
 
+### 2019-02-11 (version 1.0.12)
+
+New Features
+- Data Prep now supports reading from an Azure SQL database using Datastore.
+ 
+Changes
+- Significantly improved the memory performance of certain operations on large data.
+- `read_pandas_dataframe()` now requires `temp_folder` to be specified.
+- The `name` property on `ColumnProfile` has been deprecated - use `column_name` instead.
+
 ### 2019-01-28 (version 1.0.8)
 
 Bug fixes
