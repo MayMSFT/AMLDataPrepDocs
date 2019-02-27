@@ -25,13 +25,18 @@ pip install -U tornado==4.5.3
 
 ## Release Notes
 
+### 2019-02-27 (version 1.0.16)
+
+Bug fix
+- Fixed a Service Principal authentication issue that was caused by an API change.
+
 ### 2019-02-25 (version 1.0.15)
 
-New Features
+New features
 - Data Prep now supports writing file streams from a dataflow. Also provides the ability to manipulate the file stream names to create new file names.
   - How-to guide: [Working With File Streams notebook](https://aka.ms/aml-data-prep-file-stream-nb)
  
-Bug Fixes and Improvements
+Bug fixes and improvements
 - Improved performance of t-Digest on large data sets.
 - Data Prep now supports reading data from a DataPath.
 - One hot encoding now works on boolean and numeric columns.
@@ -39,7 +44,7 @@ Bug Fixes and Improvements
 
 ### 2019-02-11 (version 1.0.12)
 
-New Features
+New features
 - Data Prep now supports reading from an Azure SQL database using Datastore.
  
 Changes
